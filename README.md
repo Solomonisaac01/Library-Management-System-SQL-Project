@@ -784,85 +784,6 @@ This project demonstrates practical knowledge of:
 ✓ Self Join
 ✓ Business Analysis
 ```
-
----
-
-# 📁 Recommended GitHub Repository Structure
-
-```text
-Library-Management-System-SQL/
-│
-├── README.md
-│
-├── library_management_system.sql
-│
-├── dataset/
-│   ├── books.csv
-│   ├── branch.csv
-│   ├── employees.csv
-│   ├── issued_status.csv
-│   ├── members.csv
-│   └── return_status.csv
-│
-└── screenshots/
-    ├── library_erd.png
-    └── sql_results.png
-```
-
-If the CSV files are not included in the repository, remove the `dataset/` folder from the structure.
-
----
-
-# ▶️ How to Run the Project
-
-### Step 1 — Clone the Repository
-
-```bash
-git clone <your-github-repository-url>
-```
-
-### Step 2 — Open MySQL Workbench
-
-Open the project SQL file in **MySQL Workbench** or another MySQL-compatible SQL environment.
-
-### Step 3 — Create the Database
-
-Run:
-
-```sql
-CREATE DATABASE library_management_system_project;
-USE library_management_system_project;
-```
-
-### Step 4 — Import the Dataset
-
-Import the six CSV files into their respective tables:
-
-```text
-books
-branch
-employees
-issued_status
-members
-return_status
-```
-
-### Step 5 — Run the SQL Project
-
-Open:
-
-```text
-library_management_system.sql
-```
-
-Execute the queries in order.
-
-### Step 6 — Explore the Results
-
-Review the output of the analysis queries and modify or extend the queries to perform additional library-management analysis.
-
----
-
 # 🎓 Project Purpose
 
 This project was created as part of my **Data Analytics portfolio** to demonstrate practical SQL skills and the ability to work with a relational library-management dataset.
@@ -878,7 +799,3 @@ It demonstrates how SQL can be used for **data exploration, CRUD operations, joi
 Aspiring Data Analyst | SQL | Excel | Power BI | Python
 
 ---
-
-## ⭐ If you found this project useful
-
-Feel free to explore the SQL queries, modify them, and extend the project with additional library-management questions and analysis.
